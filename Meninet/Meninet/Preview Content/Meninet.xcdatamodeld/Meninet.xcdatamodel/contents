@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="RegisteredUser" representedClassName=".RegisteredUser" syncable="YES">
+        <attribute name="citizenship" optional="YES" attributeType="String"/>
+        <attribute name="dob" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="educationLevel" optional="YES" attributeType="String"/>
+        <attribute name="emailAddress" optional="YES" attributeType="String"/>
+        <attribute name="fatherName" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="grandFatherName" optional="YES" attributeType="String"/>
+        <attribute name="identityNumber" optional="YES" attributeType="String"/>
+        <attribute name="maritalStatus" optional="YES" attributeType="String"/>
+        <attribute name="mothersFatherName" optional="YES" attributeType="String"/>
+        <attribute name="mothersFirstName" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+        <attribute name="placeOfBirth" optional="YES" attributeType="String"/>
+        <attribute name="selectedCity" optional="YES" attributeType="String"/>
+        <attribute name="selectedDistrict" optional="YES" attributeType="String"/>
+        <attribute name="selectedRegion" optional="YES" attributeType="String"/>
+        <attribute name="sex" optional="YES" attributeType="String"/>
+        <attribute name="spouseIDNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Service" representedClassName=".Service" syncable="YES">
+        <attribute name="isRunning" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Test" representedClassName="Test" syncable="YES" codeGenerationType="class"/>
+</model>
